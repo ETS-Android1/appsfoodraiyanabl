@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailBurger">
+
+
+    <ImageView
+        android:id="@+id/imgBurger"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:background="@drawable/bbbb" />
+
+    <TextView
+        android:id="@+id/tvBurgerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#f9f7f2"
+        android:layout_marginTop="470dp"
+        android:text="@string/nama_burger"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvBurgerDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBurgerName"
+        android:text="@string/deskripsi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>

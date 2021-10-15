@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">burgerrecyclerview</string>
+    <string name="nama_burger">Nama Burger</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>
