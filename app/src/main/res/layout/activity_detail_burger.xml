@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/aq"
     tools:context=".DetailBurger">
 
 
@@ -11,16 +12,16 @@
         android:id="@+id/imgBurger"
         android:layout_width="450dp"
         android:layout_height="450dp"
-        android:background="@drawable/bbbb" />
+         />
 
     <TextView
         android:id="@+id/tvBurgerName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="180dp"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background="#f9f7f2"
+        android:background="#f17502"
         android:layout_marginTop="470dp"
         android:text="@string/nama_burger"
         android:layout_marginLeft="20dp"
@@ -35,4 +36,15 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="order now" />
+
+
 </RelativeLayout>

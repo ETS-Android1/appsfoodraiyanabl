@@ -1,12 +1,11 @@
 package com.example.burgerrecyclerview;
 
+import android.content.Intent;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -25,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         list.addAll(Burgerdata.getListData());
         showRecyclerList();
     }
+
+
     private void showRecyclerList(){
         rvBurger.setLayoutManager(new LinearLayoutManager(this));
         ListBurgerAdapter listBurgerAdapter = new ListBurgerAdapter(list);
